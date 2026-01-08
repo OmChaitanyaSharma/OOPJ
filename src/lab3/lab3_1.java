@@ -1,4 +1,3 @@
-package lab3;
 import java.util.Scanner;
 
 class Plastic2D {
@@ -41,7 +40,7 @@ class Plastic3D extends Plastic2D {
     }
 }
 
-public class lab3_1 {
+public class PlasticCost {
     public static void main(String[] args) {
         Plastic3D obj = new Plastic3D();
         obj.input2D();
