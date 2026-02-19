@@ -19,15 +19,18 @@ public class lab6_1 {
 
         Scanner sc = new Scanner(System.in);
 
-        int[] arr = new int[4];   // array size is 4
+        int[] arr = new int[4];
 
         try {
             System.out.println("Enter the numbers:");
-            for (int i = 0; i < 5; i++) {   // intentionally exceeding size
+            for (int i = 0; i < 5; i++) {
                 arr[i] = sc.nextInt();
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception in thread \"main\" " + e);
+        }
+        finally {
+            System.out.println("this block anyways runs everytime");
         }
 
         sc.close();
