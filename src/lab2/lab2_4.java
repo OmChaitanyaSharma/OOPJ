@@ -41,7 +41,7 @@ class Plastic3D extends Plastic2D {
     }
 }
 
-public class lab3_1 {
+public class lab2_4 {
     public static void main(String[] args) {
         Plastic3D obj = new Plastic3D();
         obj.input2D();
